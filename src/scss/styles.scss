@@ -1,0 +1,155 @@
+$body-bg: #A7A9AC;
+$orange: #F26521;
+$yellow: #FBB040;
+$pink: #EE287C;
+$green: #76CABD;
+$gray : #58595B;
+$display3-weight: 900;
+$display4-size: 2.7rem;
+$display4-weight: 900;
+$enable-responsive-font-sizes: true;
+$mark-bg: $green;
+$displays: block;
+$link-color: $yellow;
+
+
+
+$font-family-base: helvetica, 'Open Sans';
+$font-family-condensed: helvetica, 'Open Sans Condensed';
+
+.info {
+	font-size: 1.4rem;
+}
+
+.list-group-item {
+	border: 0;
+	text-align: center;
+}
+
+.condensed {
+	font-family: none;
+	font-weight: bolder;
+}
+
+.orange {
+	color: $orange;
+}
+
+.yellow {
+	color: $yellow;
+}
+
+.pink {
+	color: $pink;
+}
+
+.gray {
+	color: $gray;
+}
+
+.display-3 {
+	font-weight: $display3-weight;
+}
+
+.display-4 {
+	font-size: $display4-size;
+	font-weight: $display4-weight;
+}
+
+.masthead {
+  background-image: url('../assets/img/bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.info {
+	background-color: white;
+}
+
+.participants {
+	background-color: #76CABD;
+}
+
+.sponsors {
+	background-color: white;
+}
+
+.maxWidth {
+	max-width: 1170px;
+}
+
+.header-img {
+	max-width: 100%;
+	max-height: 480px;
+	float: right;
+}
+
+.h3-sub {
+	font-size: 1.5rem;
+}
+
+.org {
+	font-size: 2.5rem;
+}
+
+.call-out {
+	background-color: $yellow;
+}
+
+.performances {
+	background-color: #3C7FC2;
+	font-size: 1rem;
+}
+
+.listGroup {
+	background-color: #76CABD;
+}
+
+.footer {
+	background-color: $pink;
+}
+
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.spanish {
+	font-size: 1.5rem;
+	background-color: $pink;
+	color: 'white';
+}
+
+a {
+	color: $yellow;
+}
+
+body {
+    background: $body-bg;
+}	
+
+header {
+	width: 100%;
+}
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
